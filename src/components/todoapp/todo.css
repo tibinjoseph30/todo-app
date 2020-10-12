@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+body{
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    background-color: #61553c!important;
+}
+.todo-container{
+    background-color: #bfac7f;
+    padding: 1.5rem;
+    border-radius: 4px;
+}
+.list-group .list-group-item{
+    background-color: #eae7c6;
+    padding: 1.5rem;
+    display: flex;
+    border-color: rgb(191 172 127 / 42%);
+}
+.todo-container input {
+    border: 0;
+}
+ul.todo-list{
+    min-height: 289px;
+    background-color: #bfac7f;
+    padding: 1.5rem;
+}
+ul.todo-list li {
+    display: flex;
+}
+ul.pagination .page-link{
+    background-color: #fff;
+    color: #bfac7f;
+    border-color: #bfac7f;
+    outline: none;
+    box-shadow: none;
+}
