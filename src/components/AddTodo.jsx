@@ -7,7 +7,7 @@ const AddTodo = ({ todo, addTodos, setTodo }) => {
     inputRef.current.focus();
   }, []);
   return (
-    <form onSubmit={addTodos} className="flex gap-4 items-center">
+    <form onSubmit={addTodos} className="flex sm:flex-row flex-col gap-4 items-center">
       <input
         ref={inputRef}
         type="text"
@@ -18,7 +18,7 @@ const AddTodo = ({ todo, addTodos, setTodo }) => {
       />
       <button
         type="submit"
-        className="bg-blue-700 text-white px-4 py-3 rounded-md whitespace-nowrap"
+        className="bg-blue-700 text-white px-4 py-3 rounded-md whitespace-nowrap max-sm:w-full"
       >
         Add Todo
       </button>

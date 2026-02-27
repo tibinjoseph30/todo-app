@@ -1,9 +1,8 @@
 import TodoList from "./components/TodoList";
-import AddTodo from "./components/AddTodo";
 
 function App() {
   return (
-    <div className="container max-w-xl py-8">
+    <div className="container px-4 max-w-xl py-8">
       <TodoList />
     </div>
   );
